@@ -1,0 +1,23 @@
+
+{% extends 'main/layout.html' %}
+
+
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+
+    <h1 align='center'>{{ title }}</h1>
+    {% for el in values %}
+    <p style="color: azure;">{{el}}</p>
+    {% endfor %}
+    <footer>
+        <div class='page' style="text-align: center; position: fixed; bottom: 0; width: 100%; color: white;">
+            Перейти к страницам: 
+            <a href="">1</a> 
+            <a href="/index2">2</a>
+        </div> 
+    </footer>
+
+{% endblock %}
+
+

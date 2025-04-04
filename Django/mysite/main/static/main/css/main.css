@@ -1,0 +1,177 @@
+body{
+    background:rgb(41, 35, 35);
+}
+
+h3{
+    color: #fff;
+}
+
+aside{
+    float: left;
+    background:#000000;
+    padding: 2.5%;
+    width: 20%;
+    height: 100vh;
+    border-right: 5px solid #3f340d;
+}
+
+aside img{
+    width: 80px;
+    float: left;
+}
+
+main {
+    flex-grow: 1; /* Основное содержимое занимает оставшееся пространство */
+
+}
+
+aside .logo{
+    margin-left: 10px;
+    font-weight: bold;
+    font-size: 28px;
+    color: azure;
+    position: relative;
+    top: 1px;
+}
+
+aside h3{
+    margin-top: 50px;
+    font-size: 28px;
+}
+
+aside ul{list-style: none;}
+aside ul li{
+    color: azure;
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    
+    
+}
+
+h1{
+    color: azure;
+}
+
+
+aside ul li {
+    color: azure;
+    display: flex;
+    text-decoration: none;
+}
+
+.logo:hover{
+    transform: scale(1.07);
+    color: darkorange;
+    transition: 0.3s;
+}
+
+aside ul a{
+    text-decoration: none;
+}
+
+aside ul{
+    list-style: none;
+}
+
+aside ul li:hover, aside ul a:hover{
+    transform: scale(1.07);
+    color: darkorange;
+    transition: 0.07s;
+    text-decoration: none;
+    
+}
+
+.page a{
+    text-decoration: none;
+    color: azure;
+    margin-top: 200px;
+}
+
+.page a:hover{
+    transform: scale(1.03);
+    text-decoration: azure;
+    transition: 0.05s;
+    color: darkorange;
+}
+
+.gold-button {
+    display: inline-block;
+    padding: 15px 70px;
+    font-size: 18px;
+    color: #fff;
+    background: linear-gradient(to bottom, #f7b538, #f3903f 20%, #ed6846); /* Золото-оранжевый градиент */
+    border: none;
+    border-radius: 5px; /* Скругленные углы */
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Тень */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Плавный переход */
+    margin-right: 100px;
+}
+
+.gold-button:hover {
+    transform: scale(1.1); /* Увеличение при наведении */
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2); /* Увеличение тени при наведении */
+}
+
+form{
+    width: 500px;
+    margin: 0 auto;
+    margin-left: 43%;
+    margin-top: 20px;
+}
+
+form button{
+    margin-left: 34%;
+
+}
+
+.featuers{
+    color: azure;
+    margin-left: 49%;
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #f0f8ff;
+    word-wrap: break-word; /* Позволяет переносить длинные слова */
+   
+}
+
+.featuers2{
+    color: azure;
+}
+
+.alert-warning{
+    float: left;
+    clear: both;
+    width: 400px;
+    margin: 20px 34%;
+    text-align: left;
+}
+
+.alert-warning h3{
+    color:black;
+}
+
+   .featuers2 {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       justify-content: space-around;
+   }
+
+   .featuers2 h1 {
+       width: 100%;
+       text-align: center;
+   }
+
+   .featuers2 .alert {
+       width: 45%;
+       margin: 10px;
+       color: #000000;
+       text-align: center;
+   }
+
+.text-azure{
+    color: azure;
+}
